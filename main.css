@@ -14,7 +14,7 @@ body {
 	width:960px;
 	font:16px /1.5 regular "Trebuchet MS", Arial, Helvetica, sans-serif;
 	margin:0 auto;
-	background:#999
+	background:#999;
 }
 
 /* HEADER and NAVIGATION */
@@ -70,10 +70,6 @@ nav a:hover {
 
 /* MAIN CONTENT ELEMENTS */
 
-#body-content {
-	padding:20px;
-}
-
 h1, h3 {
 	font-family: 'Fontdiner Swanky', cursive;
 	color:#17516C;
@@ -82,6 +78,7 @@ h1, h3 {
 
 section {
 	background:#ddd;
+	margin:20px;
 	padding:10px 15px;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -93,9 +90,26 @@ section {
 }
 
 #choose-disc-content {
-	width:70%;
+	margin:20px 0px 20px 20px;
 }
 
+aside {
+	width:30%;
+	font-size:12px;
+	background:#ddd;
+	padding:10px 15px;
+	float:right;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+aside ol {
+	padding-top:15px;
+}
 
 /* PHOTO GALLERY */
 
@@ -106,10 +120,9 @@ section {
 #gallery ul {
 	width:950px;
 	background:#000;
-	position:relative;
-	left:-20px;
 	list-style-type:none;
 	overflow:hidden;
+	margin:0 auto;
 	padding-left:10px;
 }
 
@@ -123,4 +136,10 @@ section {
 
 #gallery img {
 	border:2px solid #17516C;
+}
+
+/* FOOTER */
+
+footer {
+	clear:both;
 }
