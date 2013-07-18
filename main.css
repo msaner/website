@@ -1,7 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* HEADER and NAVIGATION */
+/* GLOBAL ELEMENTS */
+
+* {
+	margin:0;
+	padding:0;
+}
 
 html {
 	background-image:url(images/jpg/bg-texture.jpg);
@@ -10,19 +15,28 @@ html {
 body {
 	width:960px;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font:14px /1.5 regular;
+	
 	margin:0 auto;
 	background:#999
 }
+
+
+
+/* HEADER and NAVIGATION */
+
 
 header {
 	height:100px;
 	background:#999;
 	margin: 0 auto;
 	position:relative;
+	border-bottom:1px solid #17516C;
 }
 
 header img {
 	float:left;
+	margin:5px 0px 0px 15px;
 	
 }
 
@@ -63,5 +77,26 @@ nav a:hover {
 	
 }
 
-/* BODY ELEMENTS */
+/* MAIN CONTENT ELEMENTS */
 
+#body-content {
+	padding:20px;
+}
+
+h1, h3 {
+	font-family: 'Fontdiner Swanky', cursive;
+	color:#17516C;
+	padding-bottom:10px;
+}
+
+section {
+	background:#ddd;
+	padding:10px 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.p2 {
+	padding-top:10px;
+}
