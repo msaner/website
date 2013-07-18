@@ -3,10 +3,15 @@
 
 /* HEADER and NAVIGATION */
 
+html {
+	background-image:url(images/jpg/bg-texture.jpg);
+}
+
 body {
 	width:960px;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	margin:0 auto;
+	background:#999
 }
 
 header {
@@ -57,3 +62,6 @@ nav a:hover {
 	border-bottom:4px solid #F90;
 	
 }
+
+/* BODY ELEMENTS */
+
