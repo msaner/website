@@ -1,7 +1,6 @@
-
 /* GLOBAL ELEMENTS */
 
-* {
+* { /* resets padding and margin for all elements */
 	margin:0;
 	padding:0;
 }
@@ -112,7 +111,7 @@ section {
 	float:right;
 }
 
-.p2 {
+.p2 { /* adds spacing between the bottom of first paragraph and top of corresponding paragraphs */
 	padding-top:10px;
 	margin-bottom:30px;
 }
