@@ -127,18 +127,20 @@ section {
 }
 
 #choose-disc-content {
-	width:920px;
+	width:95.833333333333%/*920px*/;
 	overflow:hidden;
 	margin:20px;
 }
 
-#column1, #column2, #column3 {
-	width:300px;
+#column1, #column2 {
+	width:290px;
+	padding-right:10px;
 	float:left;
 }
 
-#column1, #column2 {
-	padding-right:10px;
+#column3 {
+	width:32.608695652174%/*300px*/;
+	float:left;
 }
 
 aside {
