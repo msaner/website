@@ -11,7 +11,7 @@ html {
 
 body {
 	max-width:960px;
-	font:1.0em/*16px*/ /1.5 regular;
+	font:1.0em /1.5 regular;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	margin:0 auto;
 }
@@ -27,27 +27,27 @@ body {
 header {
 	height:100px;
 	background:#999;
-	margin: 0 auto;
+	margin:0 auto;
 	position:relative;
 	border-bottom:1px solid #17516C;
 }
 
 header img {
-	width:23.854166666667%;/*229*/
+	width:23.854166666667%;
 	float:left;
 	margin:5px 0px 0px 15px;
 }
 
 nav { 
-	width:78.125%; /*731*/
+	width:78.125%;
 	position:absolute;
 	bottom:0px;
-	right:02.083333333333%/*20px*/;
+	right:02.083333333333%;
 	clear:left;
 }
 
 nav ul {
-	width:82.079343365253% /*600px*/;
+	width:82.079343365253%;
 	margin:0 auto;
 	list-style-type:none;
 	padding:0;
@@ -55,17 +55,17 @@ nav ul {
 }
 
 nav ul li {
-	width: 25%/*150px*/;
-	float: left;
+	width:25%;
+	float:left;
 }
 
 nav a {
-	height: 40px;
-	text-decoration: none;
-	text-align: center;
+	height:40px;
+	text-decoration:none;
+	text-align:center;
 	font-weight:bold;
-	color: #17516C;
-	line-height: 40px;
+	color:#17516C;
+	line-height:40px;
 	display: block;
 }
 
@@ -77,7 +77,7 @@ nav a:hover {
 /* ------ MAIN CONTENT ELEMENTS ------ */
 
 h1, h3 {
-	font-family: 'Fontdiner Swanky', cursive;
+	font-family:'Fontdiner Swanky', cursive;
 	width:100%;
 	color:#17516C;
 	text-shadow: 3px 3px 4px #7d7e80;
@@ -86,13 +86,13 @@ h1, h3 {
 
 a.button {
 	display:block;
-	width:34.601449275362%/*191px*/;
+	width:34.601449275362%;
 	height:57px;
 	margin:0 auto;
 	background:url(../images/png/sign-up-button.png) 0 0 no-repeat;
 	background-size:100%;
 	text-align:center;
-	font:1.125em/*18px*/ "Trebuchet MS", Arial, Helvetica, sans-serif bold;
+	font:1.125em "Trebuchet MS", Arial, Helvetica, sans-serif bold;
 	color:#fff;
 	text-decoration:none;
 	line-height:57px;
@@ -104,19 +104,19 @@ a.button:hover {
 }
 
 #about-content {
-	width:95.833333333333%/*920px*/;
-	padding:02.173913043478%/*20px*/;
+	width:95.833333333333%;
+	padding:02.173913043478%;
 	overflow:hidden;
 }
 
 section {
-	width: 60%/*552px*/;
+	width: 60%/;
 	float: left;
-	padding:02.173913043478%/*20px*/;
+	padding:02.173913043478%;
 }
 
 #main-img {
-	width:32.608695652174%/*300px*/;
+	width:32.608695652174%;
 	height:484px;
 	background:url(../images/jpg/play-disc-golf.jpg) no-repeat;
 	background-size:100%;
@@ -129,24 +129,24 @@ section {
 }
 
 #choose-disc-content {
-	width:95.833333333333%/*920px*/;
+	width:95.833333333333%;
 	overflow:hidden;
 	margin:20px;
 }
 
 #column1, #column2 {
-	width:30.208333333333%/*290px*/;
-	padding-right:03.448275862069%/*10px*/;
+	width:30.208333333333%;
+	padding-right:03.448275862069%;
 	float:left;
 }
 
 #column3 {
-	width:31.25%/*300px*/;
+	width:31.25%;
 	float:left;
 }
 
 aside {
-	width: 67.083333333333%/*644px*/;
+	width: 67.083333333333%;
 	margin: 0 auto;
 	padding: 20px 0px;
 	font-size: 12px;
@@ -164,16 +164,16 @@ aside ol {
 }
 
 #gallery ul {
-	width:98.958333333333%/*950px*/;
+	width:98.958333333333%;
 	background:#000;
 	list-style-type:none;
 	overflow:hidden;
 	margin:0 auto;
-	padding-left:01.052631578947%/*10px*/;
+	padding-left:01.052631578947%;
 }
 
 #gallery li {
-	width: 22.395833333333%/*215px*/;
+	width: 22.395833333333%;
 	height:159px;
 	display:block;
 	float: left;
@@ -245,10 +245,9 @@ fieldset {
 }
 
 legend {
-	font-family: 'Fontdiner Swanky', cursive;
+	font-family:'Fontdiner Swanky', cursive;
 	color:#fff;
-	font-size:1.375em/*22px*/;
-
+	font-size:1.375em;
 }
 
 label {
@@ -263,17 +262,18 @@ label {
 	margin:0px auto;
 }
 
-/* ------ FOOTER ------ */
 
+/* ------ FOOTER ------ */
 footer {
 	height:50px;
-	padding:0px 02.083333333333%/*20px*/;
+	padding:0px 02.083333333333%;
 	clear:both;
 	background:#17516C;
 	opacity:0.4;
 	line-height:50px;
 	color:#fff;
 }
+
 
 /* ------ Media Queries ------ */
 
