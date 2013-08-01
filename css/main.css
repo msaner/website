@@ -22,7 +22,7 @@ body {
 	background:#999;
 }
 
-/* HEADER and NAVIGATION */
+/* ------ HEADER and NAVIGATION ------ */
 
 header {
 	height:100px;
@@ -74,7 +74,7 @@ nav a:hover {
 	background:#17516C;
 }
 
-/* MAIN CONTENT ELEMENTS */
+/* ------ MAIN CONTENT ELEMENTS ------ */
 
 h1, h3 {
 	font-family: 'Fontdiner Swanky', cursive;
@@ -157,7 +157,7 @@ aside ol {
 	padding:10px 0px 0px 20px;
 }
 
-/* PHOTO GALLERY */
+/* ------ PHOTO GALLERY ------ */
 
 #gallery {
 	margin:40px 0px;
@@ -183,15 +183,18 @@ aside ol {
 #gallery img {
 	border:2px solid #17516C;
 }
+/* ------ END GALLERY ------ */
 
-/* MEMBERSHIP TABLE */
-
-#member-info {
+#membership-container {
 	margin:20px;
+	overflow:hidden;
 }
+
+/* ------ MEMBERSHIP TABLE ------ */
 
 #memberships {
 	width:50%;
+	float:left;
 	border-collapse:collapse;
 	background-color:#ccc;
 	text-align:center;
@@ -207,7 +210,6 @@ aside ol {
 	text-transform:uppercase;
 	color:#fff;
 }
-
 
 #memberships td {
 	padding:5px;
@@ -228,7 +230,40 @@ aside ol {
 	border-right:#000 solid 1px;
 }
 
-/* FOOTER */
+/* ------ SIGN UP FORM ------ */
+
+#sign-up {
+	width:45%;
+	float:left;
+	padding-left:04.347826086957%;
+}
+
+fieldset {
+	padding:10px;
+	background:#17516C;
+	color:#fff;
+}
+
+legend {
+	font-family: 'Fontdiner Swanky', cursive;
+	color:#fff;
+	font-size:1.375em/*22px*/;
+
+}
+
+label {
+	display:inline-block;
+	width:40%;
+	text-align:right;
+	padding-right:06.410256410256%;
+}
+
+#button-container {
+	width:5%;
+	margin:0px auto;
+}
+
+/* ------ FOOTER ------ */
 
 footer {
 	height:50px;
@@ -240,7 +275,7 @@ footer {
 	color:#fff;
 }
 
-	/* ------ Media Queries ------ */
+/* ------ Media Queries ------ */
 
 /* Tablet portrait size to standard 960 (devices and browsers) */
 @media screen and (min-width:768px) and (max-width:959px) { 
