@@ -20,7 +20,6 @@ body {
 	width:100%;
 	margin:0 auto;
 	background:#999;
-
 }
 
 /* HEADER and NAVIGATION */
@@ -100,8 +99,8 @@ a.button {
 }
 
 a.button:hover {
-		background:url(../images/png/sign-up-button.png) no-repeat;
-		color:#09C;
+	background:url(../images/png/sign-up-button.png) no-repeat;
+	color:#09C;
 }
 
 #about-content {
@@ -183,6 +182,50 @@ aside ol {
 
 #gallery img {
 	border:2px solid #17516C;
+}
+
+/* MEMBERSHIP TABLE */
+
+#member-info {
+	margin:20px;
+}
+
+#memberships {
+	width:50%;
+	border-collapse:collapse;
+	background-color:#ccc;
+	text-align:center;
+	text-transform:capitalize;
+	font-size:14px;
+	border:#17516C solid 1px;
+}
+
+#memberships th {
+	background-color:#17516C;
+	width:33.3333%;
+	padding:10px;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+
+#memberships td {
+	padding:5px;
+	vertical-align:top;
+}
+
+#memberships td strong {
+	color: #F90;
+	font-size: 16px;
+}
+
+.odd { /*makes odd number rows a different color */
+	background-color:#09C;
+}
+
+.mid-col { /*adds vertical border to columns */
+	border-left:#000 solid 1px;
+	border-right:#000 solid 1px;
 }
 
 /* FOOTER */
